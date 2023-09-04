@@ -6,7 +6,7 @@
 
   "scripts": {
     "test": "jest",
-    "build": "rm -rf dist && npx tsx",
+    "build": "rm -rf dist && npx tsc",
     "prepublishOnly": "npm run test && npm run build"
   },
 
